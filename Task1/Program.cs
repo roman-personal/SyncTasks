@@ -3,6 +3,12 @@ using System.Threading;
 using System.Threading.Tasks;
 
 namespace Task1 {
+
+    // Задача 1
+    // Даны три потока каждый из которых выводит на консоль 1, 2 и 3 соответственно
+    // Потоки запускаются в произвольном порядке
+    // Сделайте так что бы на консоль было выведено 1, 2 и 3 (по порядку, каждое значение в отдельной строке)
+
     internal class Program {
         static AutoResetEvent event1;
         static AutoResetEvent event2;
